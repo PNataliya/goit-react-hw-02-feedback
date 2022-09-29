@@ -47,7 +47,7 @@ export class App extends Component {
     const handleClickButton = this.handleClickButton;
 
     return (
-      <Box m="0, auto" p="20px" bg="#ece5e5" as="main">
+      <Box m="0, auto" p="20px" as="main">
         <Container>
           <Wrapper>
             <Chapter title="Please leave feedback">

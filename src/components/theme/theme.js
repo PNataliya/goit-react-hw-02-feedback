@@ -10,7 +10,7 @@ export const theme = {
     btnBgColoryYellow: 'yellow',
     btnBgColorGreen: 'green',
   },
-  space: [0, 2, 4, 6, 8, 16, 32, 64, 128, 256],
+  spacing: [0, 2, 4, 6, 8, 16, 32, 64, 128, 256],
   fonts: {
     body: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif',
     heading:
@@ -40,5 +40,13 @@ export const theme = {
     none: '0',
     nornal: '4px',
     round: '50%',
+  },
+  styles: {
+    body: {
+      fontFamily: 'heading',
+      fontWeight: 'heading',
+      lineHeight: 'heading',
+      fontSize: 5,
+    },
   },
 };

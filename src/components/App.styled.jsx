@@ -9,8 +9,8 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  padding: 20px;
-  margin: 0 auto;
+  padding: ${props => props.theme.spacing[5]}px;
+  margin: ${props => props.theme.spacing[0]}px auto;
   border: 1px solid rgb(56, 16, 107);
   box-shadow: 0px 2px 10px rgb(101, 91, 233);
 `;
